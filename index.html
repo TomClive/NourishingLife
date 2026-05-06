@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed the Frog - Nourish Revision Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h1>Feed the Frog! 🐸</h1>
+            <p>Test your knowledge on Nourishing Life to feed the hungry frog.</p>
+            <p>Every correct answer gives the frog a tasty fly. Get it wrong, and he goes hungry!</p>
+            <button id="start-btn" class="btn primary-btn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="top-bar">
+                <div class="score-display">Flies Eaten: <span id="score">0</span></div>
+                <div class="progress-display">Question: <span id="current-q">1</span> / <span id="total-q">10</span></div>
+            </div>
+
+            <div class="game-container">
+                <div class="frog-container">
+                    <div id="frog" class="frog-emoji">🐸</div>
+                    <div id="fly" class="fly-emoji hidden">🪰</div>
+                    <div id="frog-comment" class="hidden">Ribbit!</div>
+                </div>
+
+                <div class="question-container">
+                    <h2 id="question-text">Question text goes here?</h2>
+                    <div id="options" class="options-grid">
+                        <!-- Options injected via JS -->
+                    </div>
+                    <div id="feedback-message" class="hidden"></div>
+                    <button id="next-btn" class="btn hidden">Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Screen -->
+        <div id="end-screen" class="screen">
+            <h1>Quiz Complete!</h1>
+            <p>You fed the frog <span id="final-score">0</span> flies!</p>
+            <div class="final-frog">🐸</div>
+            <h2 id="final-rank">Rank: Tadpole</h2>
+            <button id="restart-btn" class="btn primary-btn">Play Again</button>
+        </div>
+    </div>
+
+    <!-- Fly Animation Canvas/Container -->
+    <div id="particle-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
