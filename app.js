@@ -73,6 +73,131 @@ const allQuestions = [
         question: "Why do we need to digest our food?",
         options: ["To make it taste better", "To break it into molecules small enough to enter the blood", "To stop us from burping", "To create oxygen"],
         correct: 1
+    },
+    {
+        question: "What part of the plant protects the tubes that carry food and water, and helps the plant stand up?",
+        options: ["Roots", "Leaves", "Stem", "Flowers"],
+        correct: 2
+    },
+    {
+        question: "Which part of the flower produces nectar to attract insects?",
+        options: ["Anther", "Sepal", "Nectary", "Stigma"],
+        correct: 2
+    },
+    {
+        question: "Which part of the seed protects it before it grows?",
+        options: ["Food store", "Embryo", "Seed coat", "Pollen tube"],
+        correct: 2
+    },
+    {
+        question: "What is the process called when a seed starts to grow into a new plant?",
+        options: ["Pollination", "Photosynthesis", "Germination", "Fertilisation"],
+        correct: 2
+    },
+    {
+        question: "Which of these is a benefit of plants for the environment?",
+        options: ["They cause floods", "They add oxygen to the atmosphere", "They produce carbon dioxide", "They eat insects"],
+        correct: 1
+    },
+    {
+        question: "In wind-pollinated flowers, what do the petals usually look like?",
+        options: ["Bright and colorful", "Small and dull", "Large and scented", "Covered in nectar"],
+        correct: 1
+    },
+    {
+        question: "After pollination, what does the pollen grain grow down into the style?",
+        options: ["A root", "A leaf", "A pollen tube", "A seed coat"],
+        correct: 2
+    },
+    {
+        question: "What is the female part of the flower called?",
+        options: ["Stamen", "Anther", "Filament", "Carpel"],
+        correct: 3
+    },
+    {
+        question: "What part of the flower develops into the seed after fertilisation?",
+        options: ["Ovary", "Ovule", "Petal", "Sepal"],
+        correct: 1
+    },
+    {
+        question: "What happens during fertilisation in a plant?",
+        options: ["A bee drinks nectar", "The pollen nucleus joins with the ovule nucleus", "The seed grows a root", "The flower falls off"],
+        correct: 1
+    },
+    {
+        question: "Why is seed dispersal important?",
+        options: ["To feed birds", "To help the new seedlings grow without competing with the parent plant", "To stop the plant from growing too fast", "To make the fruit taste better"],
+        correct: 1
+    },
+    {
+        question: "What kind of organism can make its own food using sunlight?",
+        options: ["Consumer", "Herbivore", "Carnivore", "Producer"],
+        correct: 3
+    },
+    {
+        question: "Which part of the digestive system connects the mouth to the stomach?",
+        options: ["Small Intestine", "Liver", "Oesophagus", "Rectum"],
+        correct: 2
+    },
+    {
+        question: "What is the function of stomach acid?",
+        options: ["To turn starch into sugar", "To make ideal conditions for enzymes to break down proteins", "To absorb water", "To chew the food"],
+        correct: 1
+    },
+    {
+        question: "Which teeth are best designed for snipping and cutting food at the front of the mouth?",
+        options: ["Incisors", "Canines", "Molars", "Pre-molars"],
+        correct: 0
+    },
+    {
+        question: "What percentage of vascular plants on earth are flowering plants?",
+        options: ["10%", "50%", "94%", "100%"],
+        correct: 2
+    },
+    {
+        question: "Which type of plants have stems that act like tubes?",
+        options: ["Non-vascular", "Fungi", "Vascular", "Seaweed"],
+        correct: 2
+    },
+    {
+        question: "About how many plant species do humans actually consume?",
+        options: ["10", "200", "5,000", "300,000"],
+        correct: 1
+    },
+    {
+        question: "What does the pollen grain grow down from the stigma to reach the ovule?",
+        options: ["A root", "A leaf", "A pollen tube", "A petal"],
+        correct: 2
+    },
+    {
+        question: "What are the two parts that make up the stamen (male part) of a flower?",
+        options: ["Stigma and Style", "Anther and Filament", "Ovary and Ovule", "Petal and Sepal"],
+        correct: 1
+    },
+    {
+        question: "Which type of flower usually has small and dull petals?",
+        options: ["Insect-pollinated", "Wind-pollinated", "Water-pollinated", "Sun-pollinated"],
+        correct: 1
+    },
+    {
+        question: "What is the hardest material in the human body?",
+        options: ["Bone", "Dentine", "Enamel", "Cement"],
+        correct: 2
+    },
+    {
+        question: "Which area of a human tooth contains nerves and blood vessels?",
+        options: ["Enamel", "Crown", "Root", "Pulp cavity"],
+        correct: 3
+    },
+    {
+        question: "Why do ruminants like buffalos belch all day?",
+        options: ["They drink too much water", "Microbes digesting cellulose produce gas", "They eat too fast", "To communicate with the herd"],
+        correct: 1
+    },
+    {
+        question: "Why is buffalo dung more uniform than zebra dung?",
+        options: ["Zebras eat faster", "Buffalos eat only flowers", "Buffalos digest plants more completely", "Zebras don't have teeth"],
+        correct: 2
     }
 ];
 
